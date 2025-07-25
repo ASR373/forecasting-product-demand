@@ -33,18 +33,20 @@ Big retailers like Amazon, Walmart, and Flipkart use demand forecasting to:
 - **Amazon S3** – store raw and processed data  
 - **AWS Glue** – clean and reformat for model ingestion  
 - **Amazon Forecast** – managed ML model for time series forecasting  
-- **Amazon SageMaker** (optional) – custom model training with DeepAR  
-- **Amazon QuickSight** – dashboards for forecast results  
+- **Amazon SageMaker** – custom model training with DeepAR  
+- **Amazon QuickSight / matplotlib** – dashboards or plots for forecast results  
 - **EventBridge** – automation for monthly retraining
 
 ---
 
 ## 🗂️ Folder Structure
 
-
-
-
-
+.
+.
+.
+.
+.
+.
 
 
 
@@ -79,15 +81,16 @@ We aim to build a forecast model that captures:
 |-----|-----------|
 | ✅ Day 1 | Uploaded raw sales data to S3 |
 | ✅ Day 2 | Cleaned and reformatted data using AWS Glue job |
-| 🔜 Day 3 | Train model in Amazon Forecast |
+| ✅ Day 3 | Trained DeepAR model on SageMaker, deployed endpoint, performed live forecast & plotted output |
+| 🔜 Day 4 | Automate retraining pipeline with EventBridge |
 
 ---
 
-## 📸 Sample Output (Coming Soon)
+## 📸 Sample Output
 
-- ✅ Past sales vs forecast line graph  
-- 📈 Confidence intervals for each prediction  
-- 📊 Top-selling categories dashboard  
+- ✅ Actual vs Forecasted Sales Plot  
+![Sample Forecast](images/sample_forecast_plot.png)  
+(*Forecast for item_id: 1_GROCERY I using SageMaker DeepAR*)
 
 ---
 
