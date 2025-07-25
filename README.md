@@ -77,10 +77,9 @@ We aim to build a forecast model that captures:
 
 | Day | Milestone |
 |-----|-----------|
-| ✅ Day 1 | Dataset setup, cleaned CSV, uploaded to S3 |
-| 🔜 Day 2 | AWS Glue job to clean and format data |
-| 🔜 Day 3 | Amazon Forecast model training |
-| ... | ... |
+| ✅ Day 1 | Uploaded raw sales data to S3 |
+| ✅ Day 2 | Cleaned and reformatted data using AWS Glue job |
+| 🔜 Day 3 | Train model in Amazon Forecast |
 
 ---
 
