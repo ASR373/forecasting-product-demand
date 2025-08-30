@@ -1,6 +1,6 @@
 # 📈 Product Demand Forecasting using AWS
 
-This project builds a **smart, end-to-end demand forecasting system** using real sales data and the AWS ecosystem.
+This project builds a **smart, end-to-end demand forecasting system** using real sales data and the AWS ecosystem
 
 We use a **time-series machine learning model** to predict how many products (like soda, chips, chocolate) will be sold in the future — helping stores avoid overstock or stockouts.
 
