@@ -105,7 +105,7 @@ We aim to build a forecast model that captures:
 ## 🤝 Credits
 
 - Dataset: Corporación Favorita (via Kaggle)
-- Built by: Leo Das 🚀  
+- Built by: Adith 🚀  
 - Stack: AWS S3, Glue, Forecast, SageMaker, QuickSight
 
 ---
